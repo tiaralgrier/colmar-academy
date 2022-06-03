@@ -30,5 +30,10 @@ li a {
 
 /*Banner*/
 .banner {
-  background-color: grey;
+  background-color: lightgrey;
+}
+
+/*Learning Section*/
+.learning-container {
+  background-color: lightgrey;
 }
