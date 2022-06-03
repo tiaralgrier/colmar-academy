@@ -1,9 +1,12 @@
 /*Navigation*/
-nav {
+.nav {
+  background-color: white;
   height: 64px;
+  justify-items: center;
 }
 
 .logo {
+  display: inline;
   height: 32px;
   width: auto;
   padding-left: 24px;
@@ -23,4 +26,9 @@ li {
 
 li a {
   text-decoration: none;
+}
+
+/*Banner*/
+.banner {
+  background-color: grey;
 }
