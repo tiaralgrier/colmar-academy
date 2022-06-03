@@ -1,0 +1,26 @@
+/*Navigation*/
+nav {
+  height: 64px;
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+  padding-left: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 24px;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 16px;
+}
+
+li a {
+  text-decoration: none;
+}
