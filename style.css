@@ -182,4 +182,42 @@ li a {
 /*Learning Section*/
 .learning-container {
   background-color: lightgrey;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.learning-grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  row-gap: 32px;
+  column-gap: 32px;
+  align-content: center;
+  justify-content: center;
+}
+
+.learning-card {
+  background-color: white;
+  text-align: left;
+}
+
+.learning-card img {
+  height: auto;
+  width: 100%;
+}
+
+.learning-card h3 {
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.learning-card p {
+  margin: 1rem;
+}
+
+.learning-card .courses {
+  margin-bottom: 0.5rem;
 }
