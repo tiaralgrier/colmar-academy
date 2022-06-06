@@ -286,6 +286,35 @@ li a {
   background-color: lightgrey;
 }
 
-.card-link {
-  color: blue;
+/*Footer*/
+.copyright {
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.terms-privacy ul {
+  list-style-type: none;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+
+.terms-privacy li {
+  display: inline;
+  float: right;
+  padding: 16px;
+}
+
+.terms-privacy li a {
+  text-decoration: none;
+}
+
+footer {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
 }
