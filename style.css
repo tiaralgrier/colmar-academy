@@ -1,15 +1,54 @@
-/*Navigation*/
-.nav {
-  background-color: white;
-  height: 64px;
-  justify-items: center;
+/*Universal*/
+html {
+  font-size: 16px;
 }
 
-.logo {
-  display: inline;
+.flex-box {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: darkgrey;
+}
+a:hover {
+  color: black;
+}
+
+/*Navigation*/
+.colmar {
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo-img {
+  display: inline-flex;
   height: 32px;
   width: auto;
   padding-left: 24px;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.logo-img p {
+  font-size: 1.25rem;
+}
+
+.logo-img p .bold {
+  font-weight: 700;
+}
+
+.logo-img p .lite {
+  font-weight: 100;
 }
 
 ul {
@@ -31,6 +70,7 @@ li a {
 /*Banner*/
 .banner {
   background-color: lightgrey;
+  width: auto;
 }
 
 /*Learning Section*/
