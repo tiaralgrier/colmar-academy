@@ -221,3 +221,71 @@ li a {
 .learning-card .courses {
   margin-bottom: 0.5rem;
 }
+
+/*Exhibit*/
+.exhibit {
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+
+.exhibit-container {
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.thesis-content {
+  width: 60%;
+  text-align: left;
+  margin-right: 24px;
+}
+
+.thesis-content video {
+  width: 100%;
+}
+
+.information-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.exhibit-card-body {
+  height: auto;
+  width: 40%;
+}
+
+.exhibit-card {
+  display: flex;
+  width: 100%;
+}
+
+.exhibit-card img {
+  margin: 16px;
+  height: auto;
+  width: 35%;
+}
+
+.exhibit-card-content h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.exhibit-card-content p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.selected-card {
+  background-color: lightgrey;
+}
+
+.card-link {
+  color: blue;
+}

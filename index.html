@@ -165,10 +165,13 @@
 
       <!--Exhibit-->
       <div class="exhibit">
+        <h1>Thesis exhibit</h1>
         <div class="exhibit-container">
-          <h1>Thesis exhibit</h1>
-          <div>
-            <video src="resources/videos/thesis.mp4"></video>
+          <div class="thesis-content">
+            <video width="auto" height="auto" controls>
+              <source src="resources/videos/thesis.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <h2>Reimagine urban</h2>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
@@ -177,21 +180,25 @@
             </p>
           </div>
           <div class="exhibit-card-body">
-            <div class="exhibit-card">
+            <div class="exhibit-card selected-card">
               <img
                 src="resources/images/thesis-fisma.jpg"
                 alt="Bird's eye view of a campus"
               />
-              <h4>Fisma: Design and Prototype</h4>
-              <p>Designer showcase of new prototype product</p>
+              <div class="exhibit-card-content">
+                <h4>Fisma: Design and Prototype</h4>
+                <p>Designer showcase of new prototype product</p>
+              </div>
             </div>
             <div class="exhibit-card">
               <img
                 src="resources/images/thesis-now-and-then.jpg"
                 alt="A coffeshop on a college campus"
               />
-              <h4>Now and Then</h4>
-              <p>Research study about New York</p>
+              <div class="exhibit-card-content">
+                <h4>Now and Then</h4>
+                <p>Research study about New York</p>
+              </div>
             </div>
           </div>
         </div>
